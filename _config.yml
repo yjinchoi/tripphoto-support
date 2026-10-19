@@ -1,0 +1,11 @@
+title: TripPhoto
+description: 여행 사진으로 앨범과 동선을 만드는 앱 TripPhoto
+url: https://yjinchoi.github.io
+baseurl: /tripphoto-support
+repository: yjinchoi/tripphoto-support
+lang: ko
+exclude:
+  - README.md
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
