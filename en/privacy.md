@@ -17,6 +17,8 @@ The app reads capture times and locations (EXIF) from the photos you allow it to
 ## 2. iCloud sync
 When iCloud sync is on (the default; you can turn it off in Settings), your trips (trip names and dates, places, edits, photo capture times and locations, and identifiers that let iCloud Photos find the same photos) are stored in **your own private iCloud database** (Apple CloudKit) to keep your other iPhone and iPad signed in to the same Apple Account in step. Photo files themselves are not uploaded. This data lives in your iCloud storage, the developer cannot see it, and Apple's [Privacy Policy](https://www.apple.com/legal/privacy/) applies. Deleting a trip also deletes it from iCloud.
 
+When you link a trip to a FlexTrip travel plan, the developer's travel apps (FlexTrip, TripRoute and TripPhoto) exchange the travel plan (visit names, locations and planned times) and TripRoute's visit records (arrival and departure times, locations) on this device (a shared app group storage) and in your own private iCloud database. This information is never sent to the developer and is not shared with anyone else.
+
 ## 3. Place names
 To show place names, representative coordinates of places are sent to Apple's location services (reverse geocoding and map search), under Apple's [Privacy Policy](https://www.apple.com/legal/privacy/).
 
