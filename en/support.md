@@ -23,11 +23,11 @@ In a trip, open "photos without location" to pick the place visited right before
 ### Places are split too finely or grouped too broadly.
 Open **Grouping & Route** in a trip to choose how photos are grouped (radius or city/district) and, separately, how the map route is drawn. Renaming, merging and moving photos only change the photo places, not the route.
 
-### When do ads appear?
-No ads for the first 3 months after installing. After that, a short ad appears only right before you share a map file. Remove ads in **Settings** with a monthly or yearly subscription or a lifetime purchase; it also applies to our other travel apps on the same device.
+### Can I make a trip from a travel plan?
+In the trip list, tap **+ › New Trip from Travel Plan** and pick a plan made in FlexTrip. TripPhoto makes an album of the photos taken during the plan and groups them by the plan's visits. When TripRoute recorded your arrivals and departures, photos without a location join those visits too. The visits are copied when the trip is made, so later changes to the plan leave the trip as it is. In **Grouping & Route** you can pick **Plan visits** or a radius or city grouping for the photos and for the route separately.
 
-### How do I cancel a subscription?
-In iOS **Settings › Apple Account › Subscriptions**. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends.
+### Are there ads or paid features?
+No. Every feature is free and there are no ads. You can donate in **Settings › Support Development** if you like; donations unlock nothing.
 
-### Ads came back on my new device.
-Open **Settings** in the app on the new device and tap **Restore Purchases**.
+### What about the ad-removal subscription I bought?
+Every feature is free now, so you no longer need it. Cancel it in iOS **Settings › Apple Account › Subscriptions** (the app's **Settings** also shows a Manage Subscription button).
