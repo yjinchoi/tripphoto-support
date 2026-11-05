@@ -20,6 +20,8 @@ TripPhoto는 여행 기간에 찍은 사진을 모아 사진 앱에 앨범을 �
   <li><strong>여행 계획으로 만들기</strong>FlexTrip(여행 계획 수립)의 여행 계획을 고르면 계획의 방문 장소별로 사진을 묶습니다.</li>
   <li><strong>장소별로 묶기</strong>가까운 곳에서 찍은 사진을 한 장소로 묶고 이름을 붙입니다.</li>
   <li><strong>지도 동선</strong>방문 순서대로 동선을 그리고, 사진을 볼 때 전체 동선에서 위치를 보여 줍니다.</li>
+  <li><strong>슬라이드쇼</strong>사진을 찍은 시간 순서로, 장소가 바뀔 때마다 지도와 함께 보여 줍니다. 콜라주와 전환 효과도 고를 수 있습니다.</li>
+  <li><strong>TV로 보기</strong>같은 Wi-Fi의 Chromecast로 슬라이드쇼를 TV에 띄웁니다.</li>
   <li><strong>지도 파일 공유</strong>KML·KMZ·GPX로 내보내 구글 내 지도나 GPS 앱에서 엽니다.</li>
   <li><strong>광고 없는 무료 앱</strong>모든 기능이 무료입니다. 설정의 「개발 응원하기」에서 원하실 때만 기부할 수 있습니다.</li>
 </ul>

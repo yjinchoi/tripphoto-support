@@ -20,6 +20,8 @@ TripPhoto collects the photos you took during a trip into an album in Photos and
   <li><strong>Trips from a travel plan</strong>Pick a FlexTrip travel plan and your photos are grouped by its visits.</li>
   <li><strong>Grouped by place</strong>Photos taken close together become one named place.</li>
   <li><strong>Route map</strong>See your route in visit order, and where each photo sits on it while viewing.</li>
+  <li><strong>Slideshow</strong>Photos in the order they were taken, with the map whenever the place changes. Collages and transitions too.</li>
+  <li><strong>Watch on TV</strong>Show the slideshow on a Chromecast on the same Wi-Fi.</li>
   <li><strong>Share map files</strong>Export KML, KMZ or GPX for Google My Maps or GPS apps.</li>
   <li><strong>Free, no ads</strong>Every feature is free. Donate in Settings › Support Development if you like.</li>
 </ul>

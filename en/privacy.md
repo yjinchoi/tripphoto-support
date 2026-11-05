@@ -7,7 +7,7 @@ description: What information the TripPhoto app handles, where it is stored and 
 ---
 # Privacy Policy
 
-<p class="meta">Effective: October 28, 2026</p>
+<p class="meta">Effective: November ○, 2026 (TripPhoto 1.3.0 release)</p>
 
 TripPhoto (the "app") is an iOS app that builds trip albums and travel routes from the photos in your library. The developer (JJ Lab) has no sign-up and runs no server that receives or stores your photos or trips.
 
@@ -25,20 +25,28 @@ To show place names, representative coordinates of places are sent to Apple's lo
 ## 4. Sharing map files
 When you choose to share, the app creates a KML, KMZ or GPX file on your device and hands it to the app or service you pick. KMZ files contain photo thumbnails. What happens after sharing follows the receiver's policies.
 
-## 5. Ads and tracking
-The app shows no ads, uses no advertising, analytics or tracking SDKs, and does not track you across apps and websites owned by other companies. It never asks for tracking permission (ATT).
+## 5. Slideshows and watching on a TV (Chromecast)
+Slideshows load and show your photos on your device; slideshow settings (layout, transition, time per photo, whether place and time show) are stored only on your device.
 
-## 6. Donations
+When you open the slideshow's start screen to watch on a TV, the app asks for iOS **Local Network** access (once) to find Chromecast devices on the same Wi-Fi network. This feature uses Google's **Google Cast SDK**; as iOS requires, the app also states a **Bluetooth** purpose, which the SDK may use to find nearby devices.
+- When you pick a Chromecast, images of the photos, collages and maps, and videos (converted to MP4), go directly from your device **only to that Chromecast on your network**. Nothing is sent to the developer or any other server, and the temporary files made on your device are deleted when the slideshow ends.
+- For the reliability and performance of the feature, the Google Cast SDK may send **diagnostic data (performance and other diagnostics), coarse location and a device identifier** to Google. This data is not linked to your identity and is not used for tracking. The app turns the SDK's analytics logging off. Google's [Privacy Policy](https://policies.google.com/privacy) applies.
+- The Google Cast SDK starts only when you first open the slideshow's start screen (it does not run before). The slideshow on your device works even if you deny Local Network access.
+
+## 6. Ads and tracking
+The app shows no ads, uses no advertising, analytics or tracking SDKs, and does not track you across apps and websites owned by other companies. It never asks for tracking permission (ATT). (For the diagnostic data the Google Cast SDK of the Chromecast feature sends, see section 5.)
+
+## 7. Donations
 Every feature of the app is free. In **Settings › Support Development** you can make an optional donation (a consumable in-app purchase); it unlocks nothing. The Apple App Store handles payment, the developer never receives payment details, and the app keeps no record of donations.
 
-## 7. Retention and deletion
+## 8. Retention and deletion
 Deleting a trip removes it from your device and iCloud. Deleting the app removes trips from the device; what remains in iCloud can be deleted in iOS **Settings › Apple Account › iCloud › Manage Storage**. Albums created in Photos are managed in the Photos app.
 
-## 8. Children
+## 9. Children
 The app is not directed at children and does not knowingly collect children's information.
 
-## 9. Changes
+## 10. Changes
 Changes to this policy are posted on this page with a new effective date.
 
-## 10. Contact
+## 11. Contact
 [jjlab-support@googlegroups.com](mailto:jjlab-support@googlegroups.com)
