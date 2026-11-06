@@ -7,7 +7,7 @@ description: What information the TripPhoto app handles, where it is stored and 
 ---
 # Privacy Policy
 
-<p class="meta">Effective: November ○, 2026 (TripPhoto 1.3.0 release)</p>
+<p class="meta">Effective: November 6, 2026</p>
 
 TripPhoto (the "app") is an iOS app that builds trip albums and travel routes from the photos in your library. The developer (JJ Lab) has no sign-up and runs no server that receives or stores your photos or trips.
 
