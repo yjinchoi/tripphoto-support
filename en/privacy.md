@@ -19,6 +19,8 @@ When iCloud sync is on (the default; you can turn it off in Settings), your trip
 
 When you make a trip from a travel plan, the app reads the travel plan (visit names, locations, place types and planned times) and the visit records (arrival and departure times, locations) that the developer's other travel apps, FlexTrip and TripRoute, keep on this device (an app group storage the three apps share) and in your own private iCloud database, and copies the visits and visit records as they are then into the trip. From then on it uses only that copy; the app never changes or sends the plan or the records. This information is never sent to the developer and is not shared with anyone else.
 
+**Visit notes (from 1.4.0)**: for a trip made from a travel plan, the app reads the notes you left at visits in FlexTrip (text, the on-device transcript of a voice note, and its recording) from the same app group storage and your own private iCloud database, and shows and plays them with that place's photos and in slideshows. When the plan's notes change, the trip's copy of the notes (text and transcripts) follows, and that copy is part of the iCloud sync above. Recordings are kept only in the app's storage on this device; they are not synced to iCloud by the app or sent to a TV (voice notes play on the iPhone). When you watch on a Chromecast, text notes are drawn into the picture sent only to that TV. The app records nothing itself and has no microphone access. This information is not sent to the developer either.
+
 ## 3. Place names
 To show place names, representative coordinates of places are sent to Apple's location services (reverse geocoding and map search), under Apple's [Privacy Policy](https://www.apple.com/legal/privacy/).
 
