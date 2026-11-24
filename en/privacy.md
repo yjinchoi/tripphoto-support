@@ -7,7 +7,7 @@ description: What information the TripPhoto app handles, where it is stored and 
 ---
 # Privacy Policy
 
-<p class="meta">Effective: November 6, 2026</p>
+<p class="meta">Effective: November 25, 2026</p>
 
 TripPhoto (the "app") is an iOS app that builds trip albums and travel routes from the photos in your library. The developer (JJ Lab) has no sign-up and runs no server that receives or stores your photos or trips.
 
@@ -28,7 +28,7 @@ To show place names, representative coordinates of places are sent to Apple's lo
 When you choose to share, the app creates a KML, KMZ or GPX file on your device and hands it to the app or service you pick. KMZ files contain photo thumbnails. What happens after sharing follows the receiver's policies.
 
 ## 5. Slideshows and watching on a TV (Chromecast)
-Slideshows load and show your photos on your device; slideshow settings (layout, transition, time per photo, whether place and time show, whether videos are included) are stored only on your device. If you choose background music, iOS asks for **Media & Apple Music** access; the app keeps only the library identifiers of the songs you chose on your device and plays them there (never sent to the TV or to the developer).
+Slideshows load and show your photos on your device; slideshow settings (layout, transition, time per photo, whether place and time show, whether videos are included, whether visit notes show and voice notes play) and the layout of a place's photos (grid, justified rows, masonry columns or mosaic, and the number of columns) are stored only on your device. If you choose background music, iOS asks for **Media & Apple Music** access; the app keeps only the library identifiers of the songs you chose on your device and plays them there (never sent to the TV or to the developer).
 
 When you open the slideshow's start screen to watch on a TV, the app asks for iOS **Local Network** access (once) to find Chromecast devices on the same Wi-Fi network. This feature uses Google's **Google Cast SDK**; as iOS requires, the app also states a **Bluetooth** purpose, which the SDK may use to find nearby devices.
 - When you pick a Chromecast, images of the photos, collages and maps, and videos (converted to MP4), go directly from your device **only to that Chromecast on your network**. Nothing is sent to the developer or any other server, and the temporary files made on your device are deleted when the slideshow ends.
