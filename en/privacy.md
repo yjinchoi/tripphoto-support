@@ -7,7 +7,7 @@ description: What information the TripPhoto app handles, where it is stored and 
 ---
 # Privacy Policy
 
-<p class="meta">Effective: November 6, 2026</p>
+<p class="meta">Effective: November 25, 2026</p>
 
 TripPhoto (the "app") is an iOS app that builds trip albums and travel routes from the photos in your library. The developer (JJ Lab) has no sign-up and runs no server that receives or stores your photos or trips.
 
@@ -19,6 +19,8 @@ When iCloud sync is on (the default; you can turn it off in Settings), your trip
 
 When you make a trip from a travel plan, the app reads the travel plan (visit names, locations, place types and planned times) and the visit records (arrival and departure times, locations) that the developer's other travel apps, FlexTrip and TripRoute, keep on this device (an app group storage the three apps share) and in your own private iCloud database, and copies the visits and visit records as they are then into the trip. From then on it uses only that copy; the app never changes or sends the plan or the records. This information is never sent to the developer and is not shared with anyone else.
 
+**Visit notes (from 1.4.0)**: for a trip made from a travel plan, the app reads the notes you left at visits in FlexTrip (text, the on-device transcript of a voice note, and its recording) from the same app group storage and your own private iCloud database, and shows and plays them with that place's photos and in slideshows. When the plan's notes change, the trip's copy of the notes (text and transcripts) follows, and that copy is part of the iCloud sync above. Recordings are kept only in the app's storage on this device; they are not synced to iCloud by the app or sent to a TV (voice notes play on the iPhone). When you watch on a Chromecast, text notes are drawn into the picture sent only to that TV. The app records nothing itself and has no microphone access. This information is not sent to the developer either.
+
 ## 3. Place names
 To show place names, representative coordinates of places are sent to Apple's location services (reverse geocoding and map search), under Apple's [Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -26,7 +28,7 @@ To show place names, representative coordinates of places are sent to Apple's lo
 When you choose to share, the app creates a KML, KMZ or GPX file on your device and hands it to the app or service you pick. KMZ files contain photo thumbnails. What happens after sharing follows the receiver's policies.
 
 ## 5. Slideshows and watching on a TV (Chromecast)
-Slideshows load and show your photos on your device; slideshow settings (layout, transition, time per photo, whether place and time show, whether videos are included) are stored only on your device. If you choose background music, iOS asks for **Media & Apple Music** access; the app keeps only the library identifiers of the songs you chose on your device and plays them there (never sent to the TV or to the developer).
+Slideshows load and show your photos on your device; slideshow settings (layout, transition, time per photo, whether place and time show, whether videos are included, whether visit notes show and voice notes play) and the layout of a place's photos (grid, justified rows, masonry columns or mosaic, and the number of columns) are stored only on your device. If you choose background music, iOS asks for **Media & Apple Music** access; the app keeps only the library identifiers of the songs you chose on your device and plays them there (never sent to the TV or to the developer).
 
 When you open the slideshow's start screen to watch on a TV, the app asks for iOS **Local Network** access (once) to find Chromecast devices on the same Wi-Fi network. This feature uses Google's **Google Cast SDK**; as iOS requires, the app also states a **Bluetooth** purpose, which the SDK may use to find nearby devices.
 - When you pick a Chromecast, images of the photos, collages and maps, and videos (converted to MP4), go directly from your device **only to that Chromecast on your network**. Nothing is sent to the developer or any other server, and the temporary files made on your device are deleted when the slideshow ends.
